@@ -1,0 +1,33 @@
+body {
+ font-family: "Poppins", sans-serif;
+ background: #eef3ff;
+ color: #333;
+ text-align: center;
+ padding: 40px;
+}
+#entryForm {
+ background: #fff;
+ border-radius: 12px;
+ padding: 20px;
+ margin: 0 auto 30px;
+ width: 340px;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+input, select, button {
+ margin: 8px;
+ padding: 10px;
+ border-radius: 8px;
+ border: 1px solid #ccc;
+ width: 80%;
+}
+button {
+ background-color: #6a80ff;
+ color: white;
+ border: none;
+ cursor: pointer;
+}
+canvas {
+ background: #fff;
+ border-radius: 12px;
+ box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
