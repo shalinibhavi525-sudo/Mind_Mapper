@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>MindMapper</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+ <h1>■ MindMapper</h1>
+ <div id="entryForm">
+ <input id="topic" placeholder="Study Topic">
+ <select id="mood">
+ <option value="Happy">Happy</option>
+ <option value="Calm">Calm</option>
+ <option value="Tired">Tired</option>
+ <option value="Stressed">Stressed</option>
+ </select>
+ <input id="score" type="number" min="1" max="10" placeholder="Memory Score (1–10)">
+ <button onclick="addEntry()">Add Entry</button>
+ </div>
+ <canvas id="chart" width="400" height="200"></canvas>
+ <p id="insight"></p>
+ <script src="script.js"></script>
+</body>
+   </html>
